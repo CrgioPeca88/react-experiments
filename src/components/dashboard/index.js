@@ -14,7 +14,7 @@ class Dashboard extends Component {
     return (
         <div className="Dashboard">
           <img src={logo} className="logo" alt="logo"/>
-          <h2>React experiments - CP88</h2>
+          <h2>React experiments - CP88!</h2>
         </div>
     );
   }
