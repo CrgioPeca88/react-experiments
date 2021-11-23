@@ -2,7 +2,6 @@
 import React, {Component} from 'react';
 
 //Assets
-import logo from './logo.svg';
 import './home.css';
 
 class Home extends Component {
@@ -18,7 +17,6 @@ class Home extends Component {
   render() {
     return (
         <div className="Home">
-          <img src={logo} className="logo" alt="logo"/>
           <h2>React Test - Read File Project</h2>
           <button id="start" onClick={this.handleStartClick}> Start! </button>
         </div>
